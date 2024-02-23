@@ -5,18 +5,10 @@ moveZeros([false,1,0,1,2,0,1,3,"a"]) // returns[false,1,1,2,1,3,"a",0,0]
 ARRAYS SORTING ALGORITHMS
 */
 function moveZeros(arr) {
-    let sorted= arr.filter((a)=>a === 0);
-    let newArr = [];
-    for(let i = 0; i < arr.length; i++){
-      if(arr[i] != 0){
-        newArr.push(arr[i]);
-      }
-  
-        
-      
-    }
+    let zeros = arr.filter((e)=> e === 0);
+    let nonZeros = arr.filter((e)=> e!== 0);
     
-    return [].concat(newArr,sorted)
+    return [].concat(nonZeros,zeros)
   }
 
 
