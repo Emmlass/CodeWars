@@ -44,6 +44,8 @@ function rpsls(pl1,pl2){
         return "Player 1 Won!"
       }else if(pl1 === pl2){
         return "Draw!"
+      }else if(pl1 === "paper" && pl2 === "spock"){
+        return "Player 1 Won!"
       }else{
         return "Player 2 Won!"
       }
@@ -58,7 +60,9 @@ function rpsls(pl1,pl2){
     console.log(rpsls('lizard','scissors'), 'Player 2 Won!')
     console.log(rpsls('spock','lizard'), 'Player 2 Won!');
     console.log(rpsls('scissors', 'lizard'), 'Player 1 Won!');
-    console.log(rpsls('lizard', 'paper'), 'Player 1 Won!');
+    console.log(rpsls('paper', 'spock'), 'Player 1 Won!');
     console.log(rpsls('spock', 'rock'), 'Player 1 Won!');
     console.log(rpsls('rock', 'rock'), 'Draw!');
     console.log(rpsls('spock', 'spock'), 'Draw!');
+
+    console.log(rpsls('paper', 'spock'), 'Player 1 Won!');
