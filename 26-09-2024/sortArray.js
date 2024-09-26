@@ -19,18 +19,16 @@ gimme([5, 10, 14]) => 1
 //find the element
 //return the index of the element that fits between the two elements when sorted
 
-console.log(indexOfMiddle([7, 3, 5]), 0)
+console.log(indexOfMiddle([7, 3, 5]), 2 );
 
-function indexOfMiddle(arr){
-    // sort the array to find the middle element
-    let sorted = [...arr].sort((a, b) => a-b);
-    console.log(sorted)
-    // get the middle value of the  sorted list
+function indexOfMiddle(arr) {
+  // sort the array to find the middle element
+  let sorted = [...arr].sort((a, b) => a - b);
+  console.log(sorted);
+  // get the middle value of the  sorted list
 
-    let  middle = sorted[1];
-    
+  let middle = sorted[1];
 
-    //  return the index of the middle element
-    return arr.indexOf(middle);  
-
+  //  return the index of the middle element
+  return arr.indexOf(middle);
 }
