@@ -13,3 +13,13 @@ Another example (just to make sure it is clear):
 gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 */
+
+// function will be array with three    elements
+// elements will be numbers
+//find the element
+//return the index of the element that fits between the two elements when sorted
+
+function indexOfMiddle(arr){
+    
+
+}
