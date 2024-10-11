@@ -16,7 +16,7 @@ Fundamentals
 // collects arrays of strings
 // returns array of strings with 4 letters
 
-//console.log(friend("Ryan", "Kieran", "Jason", "Yous"), ["Ryan", "Yous"])
+console.log(friend("Ryan", "Kieran", "Jason", "Yous"), ["Ryan", "Yous"])
 function friend(names) {
-  // Your code here
+  // Your code comes here
 }
